@@ -60,7 +60,7 @@ params:
     profileMode:
           enabled: true
           title: Suchir Kalra
-          subtitle: subtitle: |
+          subtitle: |
   Hello! I’m Suchir — a <strong><span style="color:#2558b3;">researcher</span></strong> with broad interests across
   <strong><span style="color:#2558b3;">education</span></strong>, <strong><span style="color:#2558b3;">economic history</span></strong>,
   <strong><span style="color:#2558b3;">digital humanities</span></strong>, <strong><span style="color:#2558b3;">public policy</span></strong>,
