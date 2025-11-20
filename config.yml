@@ -26,8 +26,8 @@ menu:
         - name: CV
           url: Resume_Suchir_Kalra_2025.pdf
           weight: 5
-        - name: Awards
-          url: awards/
+        - name: Recognition
+          url: recognition/
           weight: 6
         - name: Personal
           url:  "https://suchirkalra321.wixsite.com/portfolio/portfolio"
@@ -79,8 +79,8 @@ params:
               url: Resume_Suchir_Kalra_2025.pdf
             - name: Social Service
               url: social_service/
-            - name: Awards
-              url: awards/
+            - name: Recognition
+              url: recognition/
             - name: Personal
               url:  "https://suchirkalra321.wixsite.com/portfolio/portfolio"
 
@@ -100,7 +100,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Suchir Kalr"
+      text: "Suchir Kalra"
       icon: favicon.ico
       iconHeight: 17
 
