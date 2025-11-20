@@ -60,11 +60,20 @@ params:
     profileMode:
           enabled: true
           title: Suchir Kalra
-          subtitle: 'Hi, I’m Suchir, a <span style="font-weight: bold; color: #2558b3;">researcher</span>and interested in education, economic history,
-          digital humanities, policy, and AI. I studied <span style="font-weight: bold; color: #2558b3;">Economics</span> and <span style="font-weight: bold; color: #2558b3;">omputer Science</span> at <span style="font-weight: bold; color: #2558b3;"><a href="https://www.ashoka.edu.in/" style="color: #2558b3; text-decoration: none;">Ashoka University</a></span>, and my  <span style="font-weight: bold; color: #2558b3;">research</span> spans diverse
-          topics including <span style="font-weight: bold; color: #2558b3;">AI Art</span>, <span style="font-weight: bold; color: #2558b3;">law and tech</span>, <span style="font-weight: bold; color: #2558b3;">CAPTCHAs</span>, color: #2558b3;">the Partition of India,</span>, piezoelectricity,
-          and <span style="font-weight: bold; color: #2558b3;">Indian educatio.</span>. I enjoy reading, thinking across disciplines, and performing
-          theatre.'
+          subtitle: subtitle: |
+  Hello! I’m Suchir — a <strong><span style="color:#2558b3;">researcher</span></strong> with broad interests across
+  <strong><span style="color:#2558b3;">education</span></strong>, <strong><span style="color:#2558b3;">economic history</span></strong>,
+  <strong><span style="color:#2558b3;">digital humanities</span></strong>, <strong><span style="color:#2558b3;">public policy</span></strong>,
+  and <strong><span style="color:#2558b3;">artificial intelligence</span></strong>. I graduated from
+  <strong><span style="color:#2558b3;"><a href="https://www.ashoka.edu.in/" style="color:#2558b3; text-decoration:none;">Ashoka University</a></span></strong>
+  with a degree in <strong><span style="color:#2558b3;">Economics and Computer Science</span></strong>, and my
+  <a href="/research/"><strong><span style="color:#2558b3;">work</span></strong></a> spans both quantitative and qualitative methods.
+  I’ve conducted research on <strong><span style="color:#2558b3;">AI art</span></strong>, <strong><span style="color:#2558b3;">law and technology</span></strong>,
+  <strong><span style="color:#2558b3;">CAPTCHAs</span></strong>, the <strong><span style="color:#2558b3;">Partition of India</span></strong>,
+  <strong><span style="color:#2558b3;">piezoelectricity</span></strong>, and India’s <strong><span style="color:#2558b3;">education sector</span></strong>.
+  These topics may seem disparate, but they’re connected by my curiosity about how <strong><span style="color:#2558b3;">technology, society, and history</span></strong> interact.
+  When I’m not researching, you’ll find me <strong><span style="color:#2558b3;">reading</span></strong> or performing as a
+  <strong><span style="color:#2558b3;">theatre actor</span></strong>. I’m always excited to talk about ideas—so feel free to reach out!
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
