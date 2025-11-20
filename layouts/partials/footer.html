@@ -23,9 +23,15 @@
 
   <!-- add logos here -->
   <div style="display: flex; gap: 15px; justify-content: center; align-items: center; margin-top: 10px;">
-    <img src="static/logo2.png" alt="Logo 2" style="height: 50px; width: auto; object-fit: contain;">
-    <img src="static/logo1.jpg" alt="Logo 1" style="height: 50px; width: auto; object-fit: contain;">
-    <img src="static/logo3.png" alt="Logo 3" style="height: 50px; width: auto; object-fit: contain;">
+  <a href="#" rel="noopener">
+    <img src="{{ "logo2.png" | relURL }}" alt="Logo 2" style="height: 50px; width: auto; object-fit: contain;">
+  </a>
+  <a href="#" rel="noopener">
+    <img src="{{ "logo1.jpg" | relURL }}" alt="Logo 1" style="height: 50px; width: auto; object-fit: contain;">
+  </a>
+  <a href="#" rel="noopener">
+    <img src="{{ "logo3.png" | relURL }}" alt="Logo 3" style="height: 50px; width: auto; object-fit: contain;">
+  </a>
 </div>
 </footer>
 {{- end }}
