@@ -2,9 +2,9 @@
 <footer class="footer">
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
+            <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+            <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
         {{- print " · "}}
     {{- end }}
@@ -33,77 +33,77 @@
 {{- partial "extend_footer.html" . }}
 
 <script>
-    (function() {
-      const menu = document.getElementById('menu');
-      if (menu) {
-        try {
-          menu.scrollLeft = localStorage.getItem("menu-scroll-position") || 0;
-          menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-          };
-        } catch (e) { console.warn('menu scroll restore failed', e); }
-      }
+(function() {
+  const menu = document.getElementById('menu');
+  if (menu) {
+    try {
+      menu.scrollLeft = Number(localStorage.getItem("menu-scroll-position")) || 0;
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      };
+    } catch (e) { console.warn('menu scroll restore failed', e); }
+  }
 
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-          var id = this.getAttribute("href").substr(1);
-          var target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
-          if (!target) return;
-          if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            target.scrollIntoView({ behavior: "smooth" });
-          } else {
-            target.scrollIntoView();
-          }
-          if (id === "top") {
-            history.replaceState(null, null, " ");
-          } else {
-            history.pushState(null, null, `#${id}`);
-          }
-        });
-      });
-    })();
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      var id = this.getAttribute("href").substr(1);
+      var target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
+      if (!target) return;
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        target.scrollIntoView({ behavior: "smooth" });
+      } else {
+        target.scrollIntoView();
+      }
+      if (id === "top") {
+        history.replaceState(null, null, " ");
+      } else {
+        history.pushState(null, null, `#${id}`);
+      }
+    });
+  });
+})();
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
 <script>
-  (function() {
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-      if (!mybutton) return;
-      if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-          mybutton.style.visibility = "visible";
-          mybutton.style.opacity = "1";
-      } else {
-          mybutton.style.visibility = "hidden";
-          mybutton.style.opacity = "0";
-      }
-    };
-  })();
+(function() {
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (!mybutton) return;
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+})();
 </script>
 {{- end }}
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
-  (function() {
-    const toggler = document.getElementById("theme-toggle");
-    if (!toggler) return;
-    toggler.addEventListener("click", () => {
-      if (document.body.classList.contains("dark")) {
-        document.body.classList.remove('dark');
-        localStorage.setItem("pref-theme", 'light');
-      } else {
-        document.body.classList.add('dark');
-        localStorage.setItem("pref-theme", 'dark');
-      }
-    });
-  })();
+(function() {
+  const toggler = document.getElementById("theme-toggle");
+  if (!toggler) return;
+  toggler.addEventListener("click", () => {
+    if (document.body.classList.contains("dark")) {
+      document.body.classList.remove('dark');
+      localStorage.setItem("pref-theme", 'light');
+    } else {
+      document.body.classList.add('dark');
+      localStorage.setItem("pref-theme", 'dark');
+    }
+  });
+})();
 </script>
 {{- end }}
 
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}
 <script>
-  // Localized button texts safely escaped for JS
+  // Localized texts escaped safely as JSON literals for JS
   const codeCopyText = {{ i18n "code_copy" | default "copy" | jsonify }};
   const codeCopiedText = {{ i18n "code_copied" | default "copied!" | jsonify }};
 
@@ -111,7 +111,6 @@
     document.querySelectorAll('pre > code').forEach((codeblock) => {
       try {
         const container = codeblock.parentNode.parentNode;
-
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
         copybutton.textContent = codeCopyText;
@@ -140,30 +139,26 @@
           }
 
           // legacy fallback
-          const range = document.createRange();
-          range.selectNodeContents(codeblock);
-          const selection = window.getSelection();
-          selection.removeAllRanges();
-          selection.addRange(range);
           try {
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
             document.execCommand('copy');
+            selection.removeRange(range);
             copyingDone();
           } catch (e) {
             console.warn('copy failed', e);
           }
-          selection.removeRange(range);
         });
 
         if (container && container.classList && container.classList.contains("highlight")) {
           container.appendChild(copybutton);
-        } else if (container && container.parentNode && container.parentNode.firstChild == container) {
-          // td containing LineNos - do nothing
         } else {
           try {
             codeblock.parentNode.appendChild(copybutton);
-          } catch (e) {
-            // swallow
-          }
+          } catch (e) { /* ignore */ }
         }
       } catch (err) {
         console.warn('copy button init failed', err);
