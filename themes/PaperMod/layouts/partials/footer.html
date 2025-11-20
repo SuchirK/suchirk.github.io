@@ -1,32 +1,24 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     {{- if not site.Params.footer.hideCopyright }}
-    {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
-    {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-    {{- end }}
-    {{- print " · "}}
+        {{- if site.Copyright }}
+        <span>{{ site.Copyright | markdownify }}</span>
+        {{- else }}
+        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        {{- end }}
+        {{- print " · "}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
-    {{ . | markdownify }}
-    {{- print " · "}}
+        {{ . | markdownify }}
+        {{- print " · "}}
     {{- end }}
+
     <span>
-    Powered by
+        Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
-         of
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
-
-  <!-- add logos here -->
-  <div style="display: flex; gap: 15px; justify-content: center; align-items: center; margin-top: 10px;">
-    <img src="/logo2.png" alt="Logo 2" style="height: 50px; width: auto; object-fit: contain;">
-    <img src="/logo1.jpg" alt="Logo 1" style="height: 50px; width: auto; object-fit: contain;">
-    <img src="/logo3.png" alt="Logo 3" style="height: 50px; width: auto; object-fit: contain;">
-</div>
 </footer>
 {{- end }}
 
@@ -38,113 +30,145 @@
 </a>
 {{- end }}
 
+{{- partial "extend_footer.html" . }}
+
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
+    (function() {
+      const menu = document.getElementById('menu');
+      if (menu) {
+        try {
+          menu.scrollLeft = localStorage.getItem("menu-scroll-position") || 0;
+          menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
+          };
+        } catch (e) { console.warn('menu scroll restore failed', e); }
+      }
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
+          e.preventDefault();
+          var id = this.getAttribute("href").substr(1);
+          var target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
+          if (!target) return;
+          if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            target.scrollIntoView({ behavior: "smooth" });
+          } else {
+            target.scrollIntoView();
+          }
+          if (id === "top") {
+            history.replaceState(null, null, " ");
+          } else {
+            history.pushState(null, null, `#${id}`);
+          }
         });
-    });
-
+      });
+    })();
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
 <script>
+  (function() {
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
+      if (!mybutton) return;
+      if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+          mybutton.style.visibility = "visible";
+          mybutton.style.opacity = "1";
+      } else {
+          mybutton.style.visibility = "hidden";
+          mybutton.style.opacity = "0";
+      }
     };
-
+  })();
 </script>
 {{- end }}
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
+  (function() {
+    const toggler = document.getElementById("theme-toggle");
+    if (!toggler) return;
+    toggler.addEventListener("click", () => {
+      if (document.body.classList.contains("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
+      } else {
+        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
+      }
+    });
+  })();
 </script>
 {{- end }}
 
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}
 <script>
+  // Localized button texts safely escaped for JS
+  const codeCopyText = {{ i18n "code_copy" | default "copy" | jsonify }};
+  const codeCopiedText = {{ i18n "code_copied" | default "copied!" | jsonify }};
+
+  (function() {
     document.querySelectorAll('pre > code').forEach((codeblock) => {
+      try {
         const container = codeblock.parentNode.parentNode;
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+        copybutton.textContent = codeCopyText;
 
         function copyingDone() {
-            copybutton.innerHTML = '{{- i18n "code_copied" | default "copied!" }}';
-            setTimeout(() => {
-                copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
-            }, 2000);
+          copybutton.textContent = codeCopiedText;
+          setTimeout(() => { copybutton.textContent = codeCopyText; }, 2000);
         }
 
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
+        copybutton.addEventListener('click', () => {
+          if (navigator && 'clipboard' in navigator) {
+            navigator.clipboard.writeText(codeblock.textContent).then(copyingDone).catch(() => {
+              // fallback
+              try {
+                const range = document.createRange();
+                range.selectNodeContents(codeblock);
+                const selection = window.getSelection();
+                selection.removeAllRanges();
+                selection.addRange(range);
                 document.execCommand('copy');
+                selection.removeRange(range);
                 copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
+              } catch (e) { console.warn('copy fallback failed', e); }
+            });
+            return;
+          }
+
+          // legacy fallback
+          const range = document.createRange();
+          range.selectNodeContents(codeblock);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          try {
+            document.execCommand('copy');
+            copyingDone();
+          } catch (e) {
+            console.warn('copy failed', e);
+          }
+          selection.removeRange(range);
         });
 
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            // td containing LineNos
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            // table containing LineNos and code
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        if (container && container.classList && container.classList.contains("highlight")) {
+          container.appendChild(copybutton);
+        } else if (container && container.parentNode && container.parentNode.firstChild == container) {
+          // td containing LineNos - do nothing
         } else {
-            // code blocks not having highlight as parent class
+          try {
             codeblock.parentNode.appendChild(copybutton);
+          } catch (e) {
+            // swallow
+          }
         }
+      } catch (err) {
+        console.warn('copy button init failed', err);
+      }
     });
+  })();
 </script>
 {{- end }}
