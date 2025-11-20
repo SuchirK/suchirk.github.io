@@ -100,9 +100,9 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Suchir Kalra"
-      icon: favicon.ico   
-      iconHeight: 18
+      text: "Suchir Kalr"
+      icon: favicon.ico
+      iconHeight: 17
 
 markup:
     goldmark:
