@@ -16,73 +16,73 @@ Supervising professors and institutions are acknowledged where relevant.
 
 ### **To Grow or Not to Grow? Economic Growth vs. Reduction of Relative Poverty**  
 *2018 — Supervised by Prof. Arunava Sinha*  
-[PDF](https://github.com/SuchirK/suchirkalra.github.io/blob/main/content/research/EconomicGrowth_Suchir.pdf)
+[PDF](https://drive.google.com/file/d/1aAiM6G_1TKARrAAUk3QDjS5sOmwwS42u/view?usp=drive_link)
 
 ---
 
 ### **Trends in Spousal Violence and Female Labour Force Participation in India**  
 *2021 — Supervised by Prof. S.K. Ritadhi (Econometrics)*  
-[PDF](/research/Suchir_Kalra_Econometrics.pdf)
+[PDF](https://drive.google.com/file/d/16yIPaIYdQiZTYqfIbGc-GHeQVvOZ25Qn/view?usp=drive_link)
 
 ---
 
 ### **A Game-Theoretical Approach to Understanding Basic Attention Token (BAT) & Its Influence on User Attention**  
 *2022 — Supervised as part of Economics of Technology research*  
-[PDF](/research/SuchirKalra_EconofTech.pdf)
+[PDF](https://drive.google.com/file/d/1ISTGzNezuEYt5UnDpm30K9UbtpZUlRki/view?usp=drive_link)
 
 ---
 
 ### **Perspectives of Inequality: A Piketty–Boo Study**  
 *2020 — Supervised by Prof. Arvind Subramanian*  
-[PDF](/research/SuchirKalra_PikettyBoo_Paper_Economic_History.pdf)
+[PDF](https://drive.google.com/file/d/1ubR-cTAyAUd61NuUMMZ3yP4ERdK0CHCW/view?usp=drive_link)
 
 ---
 
 ### **How Could a COVID-19 Pandemic-Wide Insurance Encourage Workers to Choose Employment?**  
 *2020 — Supervised by Prof. Ghosh (Microeconomics)*  
-[PDF](/research/Microeconomics%20Term%20Paper.pdf)
+[PDF](https://drive.google.com/file/d/1RgzTJ0xzmOAUQvVNC299MojPi-vGbFmb/view?usp=drive_link)
 
 ---
 
 ### **Corporate vs. Consumer: A Case on How a Home Appliance Company Sued Its Consumer**  
 *2023 — Supervised by Dr. Lantz Fleming Miller*  
-[PDF](/research/Suchir_Kalra_BusinessEthics_FinalPaper.pdf)
+[PDF](https://drive.google.com/file/d/1M11F0k30TnKQ6A0I4LqTu-IhUvsIQDAA/view?usp=drive_link)
 
 ---
 
 ### **AI Art and Design Perceptions: A Sociological, Philosophical, Economics and Technical Study**  
 *2020 — Supervised by Prof. Debayan Gupta*  
-[PDF](/research/AI%20Art%20and%20Design%20Perceptions_NP+SK_Sample.pdf)
+[PDF](https://drive.google.com/file/d/1f5LX3YRKTiYnAYu6K6KE51wASgX2DJj6/view?usp=drive_link)
 
 ---
 
 ### **Twitter, Stock Prices and Sentiments: Predicting the Stock Price of Twitter Inc. Using Sentiment Analysis**  
 *2022 — Supervised by Prof. Sugat Chaturvedi*  
-[PDF](/research/Bertrand_Suchir_MLforEcon.pdf)
+[PDF](https://drive.google.com/file/d/1YfiusY3r2_jOS_z4f_g3fx0oMoquD8k_/view?usp=drive_link)
 
 ---
 
 ### **Gender and Media**  
 *2021 — Supervised by Prof. Neha Dixit*  
-[PDF](/research/Gender%26Media_Suchir.pdf)
+[PDF](https://drive.google.com/file/d/1qR4urnBDLySPLKsPhrc3e1c5jZjP5ESz/view?usp=drive_link)
 
 ---
 
 ### **Media and the Global War on Terror**  
 *2020 — Supervised by Prof. Maya Mirchandani*  
-[PDF](/research/Media%20and%20War_Suchir.pdf)
+[PDF](https://drive.google.com/file/d/1yqX93BVbpkQCiQZwZxV79gXejrZl1dXz/view?usp=drive_link)
 
 ---
 
 ### **Photography, Art, Viewing and Comparisons**  
 *2021 — Supervised by Prof. Tisha Srivastav*  
-[PDF](/research/Photography%20and%20Art_Suchir.pdf)
+[PDF](https://drive.google.com/file/d/17tgC55EwAT74H-XqSJ9rzKWPbNpyeuH9/view?usp=drive_link)
 
 ---
 
 ### **Critical Review: Discrimination and Racism in *The Merchant of Venice*: From the 16th Century to the 21st Century**  
 *2018 — Supervised by Prof. Arunava Sinha*  
-[PDF](/research/SuchirKalra_CriticalReview_MerchantofVenice.pdf)
+[PDF](https://drive.google.com/file/d/1hSLe2_udxXx4PpkT9nsu3vXqzhoFufVO/view?usp=drive_link)
 
 ---
 
