@@ -2,7 +2,7 @@
 title: "Research, Writing & Projects"
 ---
 
-# Research, Writing & Projects
+# <span style="color:#2558b3;">Research, Writing & Projects</span>
 
 For more details on my background, head over to the **CV** section of the webpage.
 
