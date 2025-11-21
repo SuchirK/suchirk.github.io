@@ -16,7 +16,7 @@ Supervising professors and institutions are acknowledged where relevant.
 
 ### **To Grow or Not to Grow? Economic Growth vs. Reduction of Relative Poverty**  
 *2018 — Supervised by Prof. Arunava Sinha*  
-[PDF](content/research/EconomicGrowth_Suchir.pdf)
+[PDF](https://github.com/SuchirK/suchirkalra.github.io/blob/main/content/research/EconomicGrowth_Suchir.pdf)
 
 ---
 
