@@ -2,9 +2,12 @@
 title: "Research, Writing & Projects"
 ---
 
+# Research, Writing & Projects
+
 For more details on my background, head over to the **CV** section of the webpage.
 
-Below is a selection of academic writings, policy briefs, and independent projects I authored or contributed to.  
+Below is a selection of academic writings, policy briefs, and independent projects I authored or contributed to. 
+
 Supervising professors and institutions are acknowledged where relevant.
 
 ---
@@ -12,13 +15,13 @@ Supervising professors and institutions are acknowledged where relevant.
 # **Academic Writings**
 
 ### **To Grow or Not to Grow? Economic Growth vs. Reduction of Relative Poverty**  
-*2021 — Supervised by Prof. Arunava Sinha*  
+*2018 — Supervised by Prof. Arunava Sinha*  
 [PDF](/research/EconomicGrowth_Suchir.pdf)
 
 ---
 
 ### **Trends in Spousal Violence and Female Labour Force Participation in India**  
-*2022 — Supervised by Prof. S.K. Ritadhi (Econometrics)*  
+*2021 — Supervised by Prof. S.K. Ritadhi (Econometrics)*  
 [PDF](/research/Suchir_Kalra_Econometrics.pdf)
 
 ---
@@ -42,19 +45,19 @@ Supervising professors and institutions are acknowledged where relevant.
 ---
 
 ### **Corporate vs. Consumer: A Case on How a Home Appliance Company Sued Its Consumer**  
-*2022 — Supervised by Dr. Lantz Fleming Miller*  
+*2023 — Supervised by Dr. Lantz Fleming Miller*  
 [PDF](/research/Suchir_Kalra_BusinessEthics_FinalPaper.pdf)
 
 ---
 
 ### **AI Art and Design Perceptions: A Sociological, Philosophical, Economics and Technical Study**  
-*2023 — Supervised by Prof. Debayan Gupta*  
+*2020 — Supervised by Prof. Debayan Gupta*  
 [PDF](/research/AI%20Art%20and%20Design%20Perceptions_NP+SK_Sample.pdf)
 
 ---
 
 ### **Twitter, Stock Prices and Sentiments: Predicting the Stock Price of Twitter Inc. Using Sentiment Analysis**  
-*2022 — Supervised by the Machine Learning for Economics course instructor*  
+*2022 — Supervised by Prof. Sugat Chaturvedi*  
 [PDF](/research/Bertrand_Suchir_MLforEcon.pdf)
 
 ---
@@ -77,7 +80,7 @@ Supervising professors and institutions are acknowledged where relevant.
 
 ---
 
-### **Discrimination and Racism in *The Merchant of Venice*: From the 16th Century to the 21st Century**  
+### **Critical Review: Discrimination and Racism in *The Merchant of Venice*: From the 16th Century to the 21st Century**  
 *2018 — Supervised by Prof. Arunava Sinha*  
 [PDF](/research/SuchirKalra_CriticalReview_MerchantofVenice.pdf)
 
