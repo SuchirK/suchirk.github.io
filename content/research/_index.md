@@ -106,7 +106,7 @@ Supervising professors and institutions are acknowledged where relevant.
 ### **E-Charging Infrastructure Setup at Ashoka University**  
 *2020–2022 — Spearheaded with the Pro-VC and University Founders*  
 Led the initiative to install electric-vehicle charging stations on campus, coordinating with university leadership, vendors, and technical teams. The chargers were successfully implemented and now support sustainable transportation on campus.  
-[Project image](/research/EV_Charger_Project.png)
+[Project image](https://github.com/SuchirK/suchirkalra.github.io/blob/main/content/research/EV_Charger_Project.png)
 
 ---
 
