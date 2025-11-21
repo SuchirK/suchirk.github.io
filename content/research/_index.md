@@ -1,36 +1,131 @@
 ---
-title: "Background"
-description: "education, international programs"
+title: "Research, Writing & Projects"
 ---
 
-For a more detailed work experience, feel free to head over to the CV section of my website 🙂 
+For more details on my background, head over to the **CV** section of the webpage.
 
-# <span style="color:#2558b3;"> 🎓 Education  </span>
-## Master of Science, Copernicus Master in Digital Earth (2024 - 2026)
-**Paris-Lodron University Salzburg and University of Southern Brittany** <br />
-Fully-funded Erasmus+ Scholar pursuing a double Master's in Earth Observation and Geoinformatics with a specialization in Geo Data Science and AI
+Below is a selection of academic writings, policy briefs, and independent projects I authored or contributed to.  
+Supervising professors and institutions are acknowledged where relevant.
 
-## Postgraduate Diploma in Advanced Studies and Research + Bachelor of Science (2020 - 2024)
-**Ashoka University** <br />
-Graduated *Cum Laude*. Advanced Major in Computer Science, Minor in Physics, Concentration in Environmental Studies. Fully funded College Board India Scholar
+---
 
+# **Academic Writings**
 
-# <span style="color:#2558b3;"> 🌎 International Programs  </span>
-**We Are Family Foundation** United Nations General Assembly (UNGA 79) Delegate (New York City, United States, 2024)
-<!-- ![UNGA 79](un1.jpeg "UNGA 79") -->   
+### **To Grow or Not to Grow? Economic Growth vs. Reduction of Relative Poverty**  
+*2021 — Supervised by Prof. Arunava Sinha*  
+[PDF](/research/EconomicGrowth_Suchir.pdf)
 
-**Columbia University** *Global Collaboratory Fellowship* - partnered with Litro de Luz, a Brazilian organization that provides sustainable lighting solutions and developed a compelling pitch deck to increase funding opportunities for the organization's growth and outreach (Virtual/New York City, United States, 2023)
+---
 
-**Emory University** Laney Graduate School Summer Opportunity for Academic Research (LGS SOAR) is a 10-week summer research fellowship program for undergraduate students from underrepresented backgrounds (Atlanta, United States, 2022)
+### **Trends in Spousal Violence and Female Labour Force Participation in India**  
+*2022 — Supervised by Prof. S.K. Ritadhi (Econometrics)*  
+[PDF](/research/Suchir_Kalra_Econometrics.pdf)
 
-**TechCamp Kochi** Invited by the US Consulate General Chennai to attend an all-expense-paid innovation and technology-based workshop on ocean sustainability (Kochi, India, 2022)
+---
 
-**University of Oxford** Participated in the University of Oxford Government Outcomes Lab's Hack and Learn event and populated INDIGO Lab's Impact Bond Dataset to enable better data insights on the alignments between social outcome metrics and SDGs (Virtual, 2021)
+### **A Game-Theoretical Approach to Understanding Basic Attention Token (BAT) & Its Influence on User Attention**  
+*2022 — Supervised as part of Economics of Technology research*  
+[PDF](/research/SuchirKalra_EconofTech.pdf)
 
-**Perimeter Institute for Theoretical Physics** International Summer School for Young Physicists program as one of the 15 international students (and 30 students overall) with a full scholarship (Waterloo, Canada, 2019)
+---
 
-**Yale University** Yale Young Global Scholars program in Applied Science and Engineering (ASE) with a near-full scholarship. I completed a capstone project on Cleaning Ocean Garbage Debris and was selected as one of the ten speakers for the YYGS ASE and IAS Speaker Series held at Yale Law School (New Haven, United States, 2018)
+### **Perspectives of Inequality: A Piketty–Boo Study**  
+*2020 — Supervised by Prof. Arvind Subramanian*  
+[PDF](/research/SuchirKalra_PikettyBoo_Paper_Economic_History.pdf)
 
-**The New York Academy of Sciences** Collaborated with international students and co-developed twelve STEM projects. Notable projects include a device to non-invasively determine micronutrient levels, a smart green skyscraper, predictive data analytics for optimizing barley yield, and a novel data-driven intervention model to combat malnutrition in India. Grand winner of three international innovation challenges and a finalist in four challenges. Invited to New York City and Florida on all-expenses-paid trips two years in a row to present these projects to eminent personalities including Nobel Laureates and CEOs of Fortune 500 companies (New York, United States, 2016-2020)
+---
 
+### **How Could a COVID-19 Pandemic-Wide Insurance Encourage Workers to Choose Employment?**  
+*2020 — Supervised by Prof. Ghosh (Microeconomics)*  
+[PDF](/research/Microeconomics%20Term%20Paper.pdf)
 
+---
+
+### **Corporate vs. Consumer: A Case on How a Home Appliance Company Sued Its Consumer**  
+*2022 — Supervised by Dr. Lantz Fleming Miller*  
+[PDF](/research/Suchir_Kalra_BusinessEthics_FinalPaper.pdf)
+
+---
+
+### **AI Art and Design Perceptions: A Sociological, Philosophical, Economics and Technical Study**  
+*2023 — Supervised by Prof. Debayan Gupta*  
+[PDF](/research/AI%20Art%20and%20Design%20Perceptions_NP+SK_Sample.pdf)
+
+---
+
+### **Twitter, Stock Prices and Sentiments: Predicting the Stock Price of Twitter Inc. Using Sentiment Analysis**  
+*2022 — Supervised by the Machine Learning for Economics course instructor*  
+[PDF](/research/Bertrand_Suchir_MLforEcon.pdf)
+
+---
+
+### **Gender and Media**  
+*2021 — Supervised by Prof. Neha Dixit*  
+[PDF](/research/Gender%26Media_Suchir.pdf)
+
+---
+
+### **Media and the Global War on Terror**  
+*2020 — Supervised by Prof. Maya Mirchandani*  
+[PDF](/research/Media%20and%20War_Suchir.pdf)
+
+---
+
+### **Photography, Art, Viewing and Comparisons**  
+*2021 — Supervised by Prof. Tisha Srivastav*  
+[PDF](/research/Photography%20and%20Art_Suchir.pdf)
+
+---
+
+### **Discrimination and Racism in *The Merchant of Venice*: From the 16th Century to the 21st Century**  
+*2018 — Supervised by Prof. Arunava Sinha*  
+[PDF](/research/SuchirKalra_CriticalReview_MerchantofVenice.pdf)
+
+---
+
+# **Policy & Briefs**
+
+### **Economic Implications of WhatsApp’s Lawsuit Against the Government of India**  
+*2021 — Published by Takshashila Institution*  
+[Read online](https://takshashila.org.in/content/publications/20210602-Economic-Implications-of-WhatsApp%E2%80%99s-Lawsuit-against-the-Government-of-India.html)  
+[🎧 Apple Podcast Discussion](https://podcasts.apple.com/fr/podcast/ep-586-what-next-for-facebook-and-india/id1166552728?i=1000523718008)
+
+---
+
+### **Cyberpolitik #2: Disentangling Civilian & Cyber Infrastructure**  
+*2021 — Published by Takshashila Institution (HighTechIR Series)*  
+[Read online](https://hightechir.substack.com/p/1-information-age-politics)
+
+---
+
+# **Projects**
+
+### **E-Charging Infrastructure Setup at Ashoka University**  
+*2020–2022 — Spearheaded with the Pro-VC and University Founders*  
+Led the initiative to install electric-vehicle charging stations on campus, coordinating with university leadership, vendors, and technical teams. The chargers were successfully implemented and now support sustainable transportation on campus.  
+[Project image](/research/EV_Charger_Project.png)
+
+---
+
+### **Accessible & Secure CAPTCHA Prototype**  
+*Sep 2021 – Apr 2022 — Computer Science Research. Supervised by Prof. Debayan Gupta*  
+Developed a blind-friendly, accessible, GDPR-compliant CAPTCHA alternative. The project presents an innovative, secure CAPTCHA model through a detailed case study.
+
+---
+
+### **Sustainable Dance-Floor (Piezoelectricity Project)**  
+*2023 — Computation & Creativity. Supervised by Prof. Debayan Gupta*  
+Created a functioning prototype of a piezoelectric dance-floor tile capable of converting kinetic energy into electrical output.  
+[Project link](https://computation-and-creativity-or-pi.gitbook.io/piezo-path-the-piezo-project-suchirkalra/poc-1-self-created-piezoelectric-tile/overview)
+
+---
+
+### **Design Thinking for Climate Action (University of Toronto Collaboration)**  
+*Mar 2022 — Sustainable Development Sprint*  
+Designed and tested prototypes addressing climate-change challenges as part of a cross-university design-thinking module.
+
+---
+
+### **Partition Project: Sentiment Analysis & GIS Mapping**  
+*2022 — Research Assistant to Prof. Johannes Burgers*  
+Contributed to a digital-humanities research project analyzing pre- and post-Partition literature. Built a database by scraping textual sources, conducted sentiment analysis in **R**, and used **GIS tools** to map shifts in inter-community sentiment, highlighting increasing negative sentiment among specific religious and income groups.
