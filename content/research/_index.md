@@ -132,3 +132,14 @@ Designed and tested prototypes addressing climate-change challenges as part of a
 ### **Partition Project: Sentiment Analysis & GIS Mapping**  
 *2022 — Research Assistant to Prof. Johannes Burgers*  
 Contributed to a digital-humanities research project analyzing pre- and post-Partition literature. Built a database by scraping textual sources, conducted sentiment analysis in **R**, and used **GIS tools** to map shifts in inter-community sentiment, highlighting increasing negative sentiment among specific religious and income groups.
+
+---
+
+# **Contributions**
+
+### **Working Paper on Governance of DCNs I: Categorisation of Harms** 
+*2021- The Takshahshila Institution. Written by Prateek	Waghre & Vishal	Ramprasad*
+Contributed to the Digital Harms framework project, which involved analysing the extent of harms being attributed to DCNs (Digital Communication Networks). 
+[Working Paper Link](https://static1.squarespace.com/static/618a55c4cb03246776b68559/t/623063be408bf07e8d37e344/1647338432610/TWP-Governance-of-DCNs-1-Harms-Categorisation-v1.0.pdf)
+
+
