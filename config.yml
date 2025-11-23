@@ -20,7 +20,7 @@ menu:
         - name: Skills
           url: skills/
           weight: 3
-        - name: Social Service
+        - name: Social Impact
           url: social_service/
           weight: 4
         - name: CV
@@ -49,7 +49,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research","teaching","skills","cv","social service","personal"]
+    MainSections: ["research","teaching","skills","cv","social impact","personal"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -85,7 +85,7 @@ params:
               url: skills/
             - name: CV
               url: Resume_Suchir_Kalra_2025.pdf
-            - name: Social Service
+            - name: Social Impact
               url: social_service/
             - name: Recognition
               url: recognition/
