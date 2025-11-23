@@ -49,7 +49,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research","teaching","skills","cv","social impact","personal"]
+    MainSections: ["research","teaching","skills","cv","social impact", "recognition", "personal"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
