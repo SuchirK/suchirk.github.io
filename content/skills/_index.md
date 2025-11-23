@@ -205,7 +205,7 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Inclusive Pedagogy</span>
       <span class="skill-chip">Social Service & Education Field Work</span>
       <span class="skill-chip">Creative Pedagogy (Theatre, Storytelling, Comics)</span>
-      <div class="skills-subheading">[Projects & Innovation](https://suchirk.github.io/suchirkalra.github.io/research/)</div>
+      [<div class="skills-subheading">Projects & Innovation</div>](https://suchirk.github.io/suchirkalra.github.io/research/)
       <span class="skill-chip">Sustainable Design (EV Charging Infrastructure)</span>
       <span class="skill-chip">Piezoelectric Dance Floor Prototype</span>
       <span class="skill-chip">Digital Humanities & Partition Research</span>
