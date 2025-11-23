@@ -27,7 +27,7 @@ Supervising professors and institutions are acknowledged where relevant.
 ---
 
 ### **A Game-Theoretical Approach to Understanding Basic Attention Token (BAT) & Its Influence on User Attention**  
-*2022 — Supervised as part of Economics of Technology research*  
+*2022 — Supervised by Prof. Nishant Chadha*  
 [PDF](https://drive.google.com/file/d/1ISTGzNezuEYt5UnDpm30K9UbtpZUlRki/view?usp=drive_link)
 
 ---
