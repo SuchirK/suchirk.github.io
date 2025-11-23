@@ -95,4 +95,4 @@ Below is a reverse-chronological timeline of my teaching engagements at Ashoka U
 ---
 
 For additional teaching and education-related **community and social impact projects**, please visit:  
-<span style="color:#2558b3; font-weight:bold;">[Social Service & Education Field Work](https://suchirk.github.io/suchirkalra.github.io/social_service/)</span>
+<span style="color:#2558b3; font-weight:bold;">[Social Service & Education Field Work](https://suchirk.github.io/social_service/)</span>
