@@ -36,4 +36,4 @@ Below is a selection of my teaching roles at Ashoka University, where I have sup
 ---
 
 For additional teaching and education-related **community and social impact projects**, please visit:  
-<span style="color:#2558b3; font-weight:bold;">[Social Service & Education Field Work](/social_service/)</span>
+<span style="color:#2558b3; font-weight:bold;">[Social Service & Education Field Work](/suchirkalra.github.io/social_service/)</span>
