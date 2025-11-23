@@ -101,7 +101,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
 
   <!-- Content wrapper -->
   <div class="skills-content">
-
     <!-- ALL SKILLS -->
     <div id="skills-all" class="skills-section">
       <div class="skills-subheading">Programming & Data Science</div>
@@ -115,7 +114,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">LaTeX</span>
       <span class="skill-chip">Git</span>
       <span class="skill-chip">GitHub</span>
-
       <div class="skills-subheading">Geospatial & Visualization</div>
       <span class="skill-chip">GIS</span>
       <span class="skill-chip">QGIS</span>
@@ -123,14 +121,12 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Geospatial Visualization</span>
       <span class="skill-chip">ggplot2</span>
       <span class="skill-chip">RMarkdown / Quarto</span>
-
       <div class="skills-subheading">Machine Learning & Quantitative Methods</div>
       <span class="skill-chip">Supervised ML</span>
       <span class="skill-chip">Unsupervised ML</span>
       <span class="skill-chip">Econometrics</span>
       <span class="skill-chip">Time Series & Panel Data (applied)</span>
       <span class="skill-chip">Text & Sentiment Analysis</span>
-
       <div class="skills-subheading">Web, Tools & Creative</div>
       <span class="skill-chip">Hugo</span>
       <span class="skill-chip">GitHub Pages</span>
@@ -138,7 +134,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Visual Studio Code</span>
       <span class="skill-chip">Adobe Photoshop</span>
       <span class="skill-chip">Google Suite</span>
-
       <div class="skills-subheading">Education, Research & Projects</div>
       <span class="skill-chip">University Teaching (1000–2000 level)</span>
       <span class="skill-chip">Curriculum & Material Design</span>
@@ -147,7 +142,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Theatre & Public Speaking</span>
       <span class="skill-chip">Sustainable Design Projects (EV Charging, Piezoelectric Floor)</span>
     </div>
-
     <!-- TECHNICAL ONLY -->
     <div id="skills-tech" class="skills-section">
       <div class="skills-subheading">Programming & Development</div>
@@ -158,21 +152,18 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Visual Studio Code</span>
       <span class="skill-chip">Git</span>
       <span class="skill-chip">GitHub</span>
-
       <div class="skills-subheading">Data Science & Statistics</div>
       <span class="skill-chip">Stata</span>
       <span class="skill-chip">Excel</span>
       <span class="skill-chip">PowerBI</span>
       <span class="skill-chip">Econometrics</span>
       <span class="skill-chip">Regression & Causal Inference (applied)</span>
-
       <div class="skills-subheading">Machine Learning & Text</div>
       <span class="skill-chip">Supervised & Unsupervised ML</span>
       <span class="skill-chip">Model Evaluation</span>
       <span class="skill-chip">Text Mining</span>
       <span class="skill-chip">Sentiment Analysis</span>
       <span class="skill-chip">Web Scraping</span>
-
       <div class="skills-subheading">Geospatial & Visualization</div>
       <span class="skill-chip">GIS</span>
       <span class="skill-chip">QGIS</span>
@@ -180,7 +171,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Geospatial Visualization</span>
       <span class="skill-chip">ggplot2</span>
       <span class="skill-chip">RMarkdown / Quarto</span>
-
       <div class="skills-subheading">Tools & Infrastructure</div>
       <span class="skill-chip">LaTeX</span>
       <span class="skill-chip">Hugo</span>
@@ -189,7 +179,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Markdown</span>
       <span class="skill-chip">Adobe Photoshop</span>
     </div>
-
     <!-- LANGUAGES -->
     <div id="skills-lang" class="skills-section">
       <div class="skills-subheading">Languages</div>
@@ -198,7 +187,6 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">French — DELF B1 (Alliance Française)</span>
       <span class="skill-chip">German — Fit in Deutsch 1</span>
     </div>
-
     <!-- PROFESSIONAL / INTERPERSONAL -->
     <div id="skills-prof" class="skills-section">
       <div class="skills-subheading">Teaching & Mentorship</div>
@@ -207,19 +195,16 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Curriculum & Content Design</span>
       <span class="skill-chip">Research Supervision</span>
       <span class="skill-chip">Workshop Facilitation</span>
-
       <div class="skills-subheading">Communication & Collaboration</div>
       <span class="skill-chip">Public Speaking</span>
       <span class="skill-chip">Theatre Performance</span>
       <span class="skill-chip">Interdisciplinary Collaboration</span>
       <span class="skill-chip">Community & Field Engagement</span>
-
-      <div class="skills-subheading">Education & Social Impact</div>
+      div class="skills-subheading">Education & Social Impact</div>
       <span class="skill-chip">Accessibility Advocacy</span>
       <span class="skill-chip">Inclusive Pedagogy</span>
       <span class="skill-chip">Social Service & Education Field Work</span>
       <span class="skill-chip">Creative Pedagogy (Theatre, Storytelling, Comics)</span>
-
       <div class="skills-subheading">Projects & Innovation</div>
       <span class="skill-chip">Sustainable Design (EV Charging Infrastructure)</span>
       <span class="skill-chip">Piezoelectric Dance Floor Prototype</span>
