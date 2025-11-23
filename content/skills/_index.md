@@ -200,12 +200,12 @@ A snapshot of my technical, analytical, linguistic, and professional skills, bui
       <span class="skill-chip">Theatre Performance</span>
       <span class="skill-chip">Interdisciplinary Collaboration</span>
       <span class="skill-chip">Community & Field Engagement</span>
-      <div class="skills-subheading">[Education & Social Impact](https://suchirk.github.io/suchirkalra.github.io/social_service/)</div>
+      <div class="skills-subheading">Education & Social Impact</div>
       <span class="skill-chip">Accessibility Advocacy</span>
       <span class="skill-chip">Inclusive Pedagogy</span>
       <span class="skill-chip">Social Service & Education Field Work</span>
       <span class="skill-chip">Creative Pedagogy (Theatre, Storytelling, Comics)</span>
-      [<div class="skills-subheading">Projects & Innovation</div>](https://suchirk.github.io/suchirkalra.github.io/research/)
+      <div class="skills-subheading">Projects & Innovation</div>
       <span class="skill-chip">Sustainable Design (EV Charging Infrastructure)</span>
       <span class="skill-chip">Piezoelectric Dance Floor Prototype</span>
       <span class="skill-chip">Digital Humanities & Partition Research</span>
