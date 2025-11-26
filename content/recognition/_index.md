@@ -71,7 +71,7 @@ A selection of academic achievements, scholarships, and honors earned through co
 
 <div class="award-ribbon">
   <div class="award-text">
-    <div class="award-text-main">IGCSE Academic Excellence (2018)</div>
+    <div class="award-text-main">IGCSE Academic Excellence (2016)</div>
     <div class="award-text-sub">
       Physics (A*), Chemistry (A*), Biology (A), Mathematics (A*), Economics (A*), ICT (A*),  
       Literature English (A), French (A), First Language English (B).
@@ -81,7 +81,7 @@ A selection of academic achievements, scholarships, and honors earned through co
 
 <div class="award-ribbon">
   <div class="award-text">
-    <div class="award-text-main">Cambridge International A Levels (2019)</div>
+    <div class="award-text-main">Cambridge International A Levels (2018)</div>
     <div class="award-text-sub">
       Economics (A), Physics (A), Chemistry (A), Mathematics (A), AS Level English (B).
     </div>
